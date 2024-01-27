@@ -10,4 +10,5 @@ package com.mycompany.swp_shopvnnv_team6.DTO;
  */
 public class Admin {
     private String nameString;
+    private String password;
 }
