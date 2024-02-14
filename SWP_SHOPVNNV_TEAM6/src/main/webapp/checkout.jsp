@@ -304,7 +304,7 @@
 
 		                  <div class="collapse" id="collapsebank">
 		                    <div class="py-2">
-		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won?t be shipped until the funds have cleared in our account.</p>
 		                    </div>
 		                  </div>
 		                </div>
@@ -314,7 +314,7 @@
 
 		                  <div class="collapse" id="collapsecheque">
 		                    <div class="py-2">
-		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won?t be shipped until the funds have cleared in our account.</p>
 		                    </div>
 		                  </div>
 		                </div>
@@ -324,7 +324,7 @@
 
 		                  <div class="collapse" id="collapsepaypal">
 		                    <div class="py-2">
-		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+		                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won?t be shipped until the funds have cleared in our account.</p>
 		                    </div>
 		                  </div>
 		                </div>
