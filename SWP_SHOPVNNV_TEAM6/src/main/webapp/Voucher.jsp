@@ -7,7 +7,7 @@ DOCTYPE html>
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="img/logo/logo.png" rel="icon">
-        <title>VNNVAdmin - Account</title>
+        <title>VNNVAdmin - Voucher</title>
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@ DOCTYPE html>
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.html">
+                  <a class="nav-link" href="Admin.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -37,39 +37,39 @@ DOCTYPE html>
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.html" >
+                  <a class="nav-link collapsed" href="Order.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.html">
+                  <a class="nav-link collapsed" href="Account.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
                     <span>Account </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.html">
+                  <a class="nav-link collapsed" href="Product.jsp">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Product</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.html">
+                  <a class="nav-link" href="Voucher.jsp">
                     <i class="fas fa-fw fa-palette"></i>
                     <span>Voucher</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.html">
+                  <a class="nav-link " href="TransactionLog.jsp">
                     <i class="fas fa-fw fa-columns"></i>
                     <span>Transaction Logs</span>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Revenue.html">
+                  <a class="nav-link" href="Revenue.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Revenue</span>
                   </a>
@@ -105,7 +105,7 @@ DOCTYPE html>
                   </form>
                 </div>
               </li>
-             <li class="nav-item dropdown no-arrow mx-1">
+              <li class="nav-item dropdown no-arrow mx-1">
                 <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-bell fa-fw"></i>
@@ -141,7 +141,7 @@ DOCTYPE html>
                   </a>
                  
                 </div>
-              </li>                 
+              </li>               
               <div class="topbar-divider d-none d-sm-block"></div>
               <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
@@ -172,27 +172,28 @@ DOCTYPE html>
             </ul>
           </nav>
           <!-- Topbar -->
-            <!-- Invoice Example -->
+             <!-- Invoice Example -->
                       <div class="col-xl-8 col-lg-7 mb-4">
                         <div class="card">
                           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">List of account</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">List of product</h6>
                           </div>
                           <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                               <thead class="thead-light">
                                 <tr>
-                                  <th>Customer ID</th>
-                                  <th>Username</th>
-                                  <th>Fullname</th>
-                                  <th>Password</th>
-                                  <th>Phone</th>
-                                  <th>Role ID</th>
-                                  <th>Email</th>
-                                  <th>Address</th>
-                                  <th>Register Date</th>
-                                  <th>Login By</th>
+                                  <th>Voucher ID</th>
+                                  <th>Voucher Name</th>
+                                  <th>Created Date</th>
+                                  <th>Start Date</th>
+                                  <th>End Date</th>
+                                  <th>Code</th>
+                                  <th>Description</th>
                                   <th>Status</th>
+                                  <th>Image Url</th>
+                                  <th>Category ID</th>
+                                  <th>Product ID</th>
+                                  <th>Order ID</th>
                                 </tr>
                               </thead>
                               

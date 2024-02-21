@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="img/logo/logo.png" rel="icon">
-        <title>VNNVAdmin - Order</title>
+        <title>VNNVAdmin - Transaction Log</title>
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.html">
+                  <a class="nav-link" href="Admin.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -37,39 +37,39 @@
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.html" >
+                  <a class="nav-link collapsed" href="Order.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.html">
+                  <a class="nav-link collapsed" href="Account.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
                     <span>Account </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.html">
+                  <a class="nav-link collapsed" href="Product.jsp">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Product</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.html">
+                  <a class="nav-link" href="Voucher.jsp">
                     <i class="fas fa-fw fa-palette"></i>
                     <span>Voucher</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.html">
+                  <a class="nav-link " href="TransactionLog.jsp">
                     <i class="fas fa-fw fa-columns"></i>
                     <span>Transaction Logs</span>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Revenue.html">
+                  <a class="nav-link" href="Revenue.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Revenue</span>
                   </a>
@@ -172,27 +172,26 @@
             </ul>
           </nav>
           <!-- Topbar -->
+          <!-- Topbar -->
                       <!-- Invoice Example -->
                       <div class="col-xl-8 col-lg-7 mb-4">
                         <div class="card">
                           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Transaction log</h6>
                           </div>
                           <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                               <thead class="thead-light">
                                 <tr>
-                                  <th>Order ID</th>
-                                  <th>Quantity</th>
-                                  <th>Total Price</th>
-                                  <th>Created Date</th>
-                                  <th>Phone</th>
-                                  <th>Address</th>
-                                  <th>Customer ID</th>
-                                  <th>Order Status</th>
-                                  <th>Payment Status</th>
-                                  <th>Payment Type</th>
-                                  <th>Cancel Reason</th>
+                                  <th>Transaction Log ID</th>
+                                  <th>Date time</th>
+                                  <th>Type</th>
+                                  <th>Customer</th>
+                                  <th>Product Information</th>
+                                  <th>Total amount</th>
+                                  <th>Status</th>
+                                  <th>Payment method(may be use credit card, bank transfer or e-wallet)</th>
+                                  <th>Note</th>
                                 </tr>
                               </thead>
                               
@@ -201,7 +200,7 @@
                           <div class="card-footer"></div>
                         </div>
                       </div>
-                <!--Row-->
+                         <!--Row-->
 
           <div class="row">
             <div class="col-lg-12 text-center">

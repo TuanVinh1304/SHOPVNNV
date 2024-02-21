@@ -19,7 +19,7 @@
             <div id="wrapper">
               <!-- Sidebar -->
               <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.html">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.jsp">
                   <div class="sidebar-brand-icon">
                     <img src="img/logo/logo.png">
                   </div>
@@ -27,7 +27,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.html">
+                  <a class="nav-link" href="Admin.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -36,39 +36,39 @@
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.html" >
+                  <a class="nav-link collapsed" href="Order.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.html">
+                  <a class="nav-link collapsed" href="Account.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
                     <span>Account </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.html">
+                  <a class="nav-link collapsed" href="Product.jsp">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Product</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.html">
+                  <a class="nav-link" href="Voucher.jsp">
                     <i class="fas fa-fw fa-palette"></i>
                     <span>Voucher</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.html">
+                  <a class="nav-link " href="TransactionLog.jsp">
                     <i class="fas fa-fw fa-columns"></i>
                     <span>Transaction Logs</span>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Revenue.html">
+                  <a class="nav-link" href="Revenue.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Revenue</span>
                   </a>
@@ -351,7 +351,7 @@
               <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
-                  <a class="m-0 float-right btn btn-danger btn-sm" href="Order.html">View More <i
+                  <a class="m-0 float-right btn btn-danger btn-sm" href="Order.jsp">View More <i
                       class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="table-responsive">
