@@ -7,7 +7,7 @@ DOCTYPE html>
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="img/logo/logo.png" rel="icon">
-        <title>VNNVAdmin - Voucher</title>
+        <title>VNNVAdmin - Account</title>
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@ DOCTYPE html>
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.html">
+                  <a class="nav-link" href="Admin.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -37,39 +37,39 @@ DOCTYPE html>
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.html" >
+                  <a class="nav-link collapsed" href="Order.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.html">
+                  <a class="nav-link collapsed" href="Account.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
                     <span>Account </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.html">
+                  <a class="nav-link collapsed" href="Product.jsp">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Product</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.html">
+                  <a class="nav-link" href="Voucher.jsp">
                     <i class="fas fa-fw fa-palette"></i>
                     <span>Voucher</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.html">
+                  <a class="nav-link " href="TransactionLog.jsp">
                     <i class="fas fa-fw fa-columns"></i>
                     <span>Transaction Logs</span>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Revenue.html">
+                  <a class="nav-link" href="Revenue.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Revenue</span>
                   </a>
@@ -105,11 +105,11 @@ DOCTYPE html>
                   </form>
                 </div>
               </li>
-              <li class="nav-item dropdown no-arrow mx-1">
+             <li class="nav-item dropdown no-arrow mx-1">
                 <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-bell fa-fw"></i>
-                  <span class="badge badge-danger badge-counter">3+</span>
+                  <span class="badge badge-danger badge-counter"></span>
                 </a>
                 <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                   aria-labelledby="alertsDropdown">
@@ -117,46 +117,18 @@ DOCTYPE html>
                     Alerts Center
                   </h6>
                   <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-primary">
-                        <i class="fas fa-file-alt text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 22, 2019</div>
-                      <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                    </div>
+                    
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-success">
-                        <i class="fas fa-donate text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 17, 2019</div>
-                      $290.29 has been deposited into your account!
-                    </div>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-warning">
-                        <i class="fas fa-exclamation-triangle text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 10, 2019</div>
-                      Spending Alert: We've noticed unusually high spending for your account.
-                    </div>
-                  </a>
-                  <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                 
+                 
+                  
                 </div>
               </li>
               <li class="nav-item dropdown no-arrow mx-1">
                 <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-envelope fa-fw"></i>
-                  <span class="badge badge-warning badge-counter">2+</span>
+                  <span class="badge badge-warning badge-counter"></span>
                 </a>
                 <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                   aria-labelledby="messagesDropdown">
@@ -164,30 +136,12 @@ DOCTYPE html>
                     Message Center
                   </h6>
                   <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
-                      <img class="rounded-circle" src="img/man.png" style="max-width: 60px" alt="">
-                      <div class="status-indicator bg-success"></div>
-                    </div>
-                    <div class="font-weight-bold">
-                      <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been
-                        having.</div>
-                      <div class="small text-gray-500">Nguyên · 58m</div>
-                    </div>
+                    
+                  
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
-                      <img class="rounded-circle" src="img/girl.png" style="max-width: 60px" alt="">
-                      <div class="status-indicator bg-default"></div>
-                    </div>
-                    <div>
-                      <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people
-                        say this to all dogs, even if they aren't good...</div>
-                      <div class="small text-gray-500">Vy · 2w</div>
-                    </div>
-                  </a>
-                  <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                 
                 </div>
-              </li>            
+              </li>                 
               <div class="topbar-divider d-none d-sm-block"></div>
               <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
@@ -218,28 +172,27 @@ DOCTYPE html>
             </ul>
           </nav>
           <!-- Topbar -->
-             <!-- Invoice Example -->
+            <!-- Invoice Example -->
                       <div class="col-xl-8 col-lg-7 mb-4">
                         <div class="card">
                           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">List of product</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">List of account</h6>
                           </div>
                           <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                               <thead class="thead-light">
                                 <tr>
-                                  <th>Voucher ID</th>
-                                  <th>Voucher Name</th>
-                                  <th>Created Date</th>
-                                  <th>Start Date</th>
-                                  <th>End Date</th>
-                                  <th>Code</th>
-                                  <th>Description</th>
+                                  <th>Customer ID</th>
+                                  <th>Username</th>
+                                  <th>Fullname</th>
+                                  <th>Password</th>
+                                  <th>Phone</th>
+                                  <th>Role ID</th>
+                                  <th>Email</th>
+                                  <th>Address</th>
+                                  <th>Register Date</th>
+                                  <th>Login By</th>
                                   <th>Status</th>
-                                  <th>Image Url</th>
-                                  <th>Category ID</th>
-                                  <th>Product ID</th>
-                                  <th>Order ID</th>
                                 </tr>
                               </thead>
                               

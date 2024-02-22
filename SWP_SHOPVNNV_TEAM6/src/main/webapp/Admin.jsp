@@ -19,7 +19,7 @@
             <div id="wrapper">
               <!-- Sidebar -->
               <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.html">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.jsp">
                   <div class="sidebar-brand-icon">
                     <img src="img/logo/logo.png">
                   </div>
@@ -27,7 +27,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.html">
+                  <a class="nav-link" href="Admin.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -36,39 +36,39 @@
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.html" >
+                  <a class="nav-link collapsed" href="Order.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.html">
+                  <a class="nav-link collapsed" href="Account.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
                     <span>Account </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.html">
+                  <a class="nav-link collapsed" href="Product.jsp">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Product</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.html">
+                  <a class="nav-link" href="Voucher.jsp">
                     <i class="fas fa-fw fa-palette"></i>
                     <span>Voucher</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.html">
+                  <a class="nav-link " href="TransactionLog.jsp">
                     <i class="fas fa-fw fa-columns"></i>
                     <span>Transaction Logs</span>
                   </a>
                   
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Revenue.html">
+                  <a class="nav-link" href="Revenue.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Revenue</span>
                   </a>
@@ -108,7 +108,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-bell fa-fw"></i>
-                  <span class="badge badge-danger badge-counter">3+</span>
+                  <span class="badge badge-danger badge-counter"></span>
                 </a>
                 <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                   aria-labelledby="alertsDropdown">
@@ -116,46 +116,18 @@
                     Alerts Center
                   </h6>
                   <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-primary">
-                        <i class="fas fa-file-alt text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 22, 2019</div>
-                      <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                    </div>
+                    
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-success">
-                        <i class="fas fa-donate text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 17, 2019</div>
-                      $290.29 has been deposited into your account!
-                    </div>
-                  </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
-                      <div class="icon-circle bg-warning">
-                        <i class="fas fa-exclamation-triangle text-white"></i>
-                      </div>
-                    </div>
-                    <div>
-                      <div class="small text-gray-500">February 10, 2019</div>
-                      Spending Alert: We've noticed unusually high spending for your account.
-                    </div>
-                  </a>
-                  <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                 
+                 
+                  
                 </div>
               </li>
               <li class="nav-item dropdown no-arrow mx-1">
                 <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-envelope fa-fw"></i>
-                  <span class="badge badge-warning badge-counter">2+</span>
+                  <span class="badge badge-warning badge-counter"></span>
                 </a>
                 <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                   aria-labelledby="messagesDropdown">
@@ -163,28 +135,10 @@
                     Message Center
                   </h6>
                   <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
-                      <img class="rounded-circle" src="img/man.png" style="max-width: 60px" alt="">
-                      <div class="status-indicator bg-success"></div>
-                    </div>
-                    <div class="font-weight-bold">
-                      <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been
-                        having.</div>
-                      <div class="small text-gray-500">Nguyên · 58m</div>
-                    </div>
+                    
+                  
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
-                      <img class="rounded-circle" src="img/girl.png" style="max-width: 60px" alt="">
-                      <div class="status-indicator bg-default"></div>
-                    </div>
-                    <div>
-                      <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people
-                        say this to all dogs, even if they aren't good...</div>
-                      <div class="small text-gray-500">Vy · 2w</div>
-                    </div>
-                  </a>
-                  <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                 
                 </div>
               </li>            
               <div class="topbar-divider d-none d-sm-block"></div>
@@ -397,7 +351,7 @@
               <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
-                  <a class="m-0 float-right btn btn-danger btn-sm" href="Order.html">View More <i
+                  <a class="m-0 float-right btn btn-danger btn-sm" href="Order.jsp">View More <i
                       class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="table-responsive">
@@ -430,39 +384,14 @@
                   <h6 class="m-0 font-weight-bold text-light">Message From Customer</h6>
                 </div>
                 <div>
+
                   <div class="customer-message align-items-center">
                     <a class="font-weight-bold" href="#">
-                      <div class="text-truncate message-title">Hi there! I am wondering if you can help me with a
-                        problem I've been having.</div>
-                      <div class="small text-gray-500 message-time font-weight-bold">Huynh Nguyen Ngoc Nguyen · 13m</div>
+                   
+                      
                     </a>
                   </div>
-                  <div class="customer-message align-items-center">
-                    <a href="#">
-                      <div class="text-truncate message-title">But I must explain to you how all this mistaken idea
-                      </div>
-                      <div class="small text-gray-500 message-time">Tuan Vinh · 30m</div>
-                    </a>
-                  </div>
-                  <div class="customer-message align-items-center">
-                    <a class="font-weight-bold" href="#">
-                      <div class="text-truncate message-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      </div>
-                      <div class="small text-gray-500 message-time font-weight-bold">Tuong Vy · 42m</div>
-                    </a>
-                  </div>
-                  <div class="customer-message align-items-center">
-                    <a class="font-weight-bold" href="#">
-                      <div class="text-truncate message-title">At vero eos et accusamus et iusto odio dignissimos
-                        ducimus qui blanditiis
-                      </div>
-                      <div class="small text-gray-500 message-time font-weight-bold">Nam · 59m</div>
-                    </a>
-                  </div>
-                  <div class="card-footer text-center">
-                    <a class="m-0 small text-primary card-link" href="#">View More <i
-                        class="fas fa-chevron-right"></i></a>
-                  </div>
+
                 </div>
               </div>
             </div>
