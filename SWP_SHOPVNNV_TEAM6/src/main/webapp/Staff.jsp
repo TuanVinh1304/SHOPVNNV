@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="img/logo/logo.png" rel="icon">
-        <title>VNNVAdmin - Dashboard</title>
+        <title>VNNVStaff - Dashboard</title>
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
             <div id="wrapper">
               <!-- Sidebar -->
               <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.jsp">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Staff.jsp">
                   <div class="sidebar-brand-icon">
                     <img src="img/logo/logo.png">
                   </div>
@@ -27,7 +27,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.jsp">
+                  <a class="nav-link" href="Staff.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -36,43 +36,25 @@
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.jsp" >
+                  <a class="nav-link collapsed" href="Order1.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.jsp">
+                  <a class="nav-link collapsed" href="Inventory.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
-                    <span>Account </span>
+                    <span>Inventory </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.jsp">
+                  <a class="nav-link collapsed" href="Report.jsp">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Product</span>
+                    <span>User's Report</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Promotion.jsp">
-                    <i class="fas fa-fw fa-palette"></i>
-                    <span>Promotion</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.jsp">
-                    <i class="fas fa-fw fa-columns"></i>
-                    <span>Transaction Logs</span>
-                  </a>
-                  
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Revenue.jsp">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Revenue</span>
-                  </a>
-                </li>
+              
                 <div class="version" id="version-ruangadmin"></div>
             </ul>
              <!-- Sidebar -->
