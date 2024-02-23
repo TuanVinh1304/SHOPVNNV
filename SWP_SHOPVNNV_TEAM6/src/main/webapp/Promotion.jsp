@@ -56,9 +56,9 @@ DOCTYPE html>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.jsp">
+                  <a class="nav-link" href="Promotion.jsp">
                     <i class="fas fa-fw fa-palette"></i>
-                    <span>Voucher</span>
+                    <span>Promotion</span>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -182,8 +182,8 @@ DOCTYPE html>
                             <table class="table align-items-center table-flush">
                               <thead class="thead-light">
                                 <tr>
-                                  <th>Voucher ID</th>
-                                  <th>Voucher Name</th>
+                                  <th>Promotion ID</th>
+                                  <th>Promotion Name</th>
                                   <th>Created Date</th>
                                   <th>Start Date</th>
                                   <th>End Date</th>
@@ -191,9 +191,9 @@ DOCTYPE html>
                                   <th>Description</th>
                                   <th>Status</th>
                                   <th>Image Url</th>
-                                  <th>Category ID</th>
                                   <th>Product ID</th>
                                   <th>Order ID</th>
+                                  <th>Category ID</th>
                                 </tr>
                               </thead>
                               

@@ -56,9 +56,9 @@ DOCTYPE html>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.jsp">
+                  <a class="nav-link" href="Promotion.jsp">
                     <i class="fas fa-fw fa-palette"></i>
-                    <span>Voucher</span>
+                    <span>Promotion</span>
                   </a>
                 </li>
                 <li class="nav-item">
