@@ -18,12 +18,13 @@ public class DeliveryStaffDTO {
     private String phone;
     private String address;
     private Timestamp create_date;
+    private boolean status;
     private String order_id;
 
     public DeliveryStaffDTO() {
     }
 
-    public DeliveryStaffDTO(String delivery_id, String product_name, String customer_name, Float Total_price, String phone, String address, Timestamp create_date, String order_id) {
+    public DeliveryStaffDTO(String delivery_id, String product_name, String customer_name, Float Total_price, String phone, String address, Timestamp create_date, boolean status, String order_id) {
         this.delivery_id = delivery_id;
         this.product_name = product_name;
         this.customer_name = customer_name;
@@ -31,6 +32,7 @@ public class DeliveryStaffDTO {
         this.phone = phone;
         this.address = address;
         this.create_date = create_date;
+        this.status = status;
         this.order_id = order_id;
     }
 
@@ -88,6 +90,14 @@ public class DeliveryStaffDTO {
 
     public void setCreate_date(Timestamp create_date) {
         this.create_date = create_date;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 
     public String getOrder_id() {

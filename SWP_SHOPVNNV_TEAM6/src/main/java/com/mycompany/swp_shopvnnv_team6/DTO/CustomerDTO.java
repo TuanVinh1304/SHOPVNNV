@@ -16,26 +16,28 @@ public class CustomerDTO {
     private String full_Name;
     private String password;
     private String phone;
-    private String role_id;
     private String email;
     private String address;
     private Timestamp register_date;
     private String login_by;
+    private boolean status;
+    private String admin_id;
 
     public CustomerDTO() {
     }
 
-    public CustomerDTO(String customer_id, String user_Name, String full_Name, String password, String phone, String role_id, String email, String address, Timestamp register_date, String login_by) {
+    public CustomerDTO(String customer_id, String user_Name, String full_Name, String password, String phone, String email, String address, Timestamp register_date, String login_by, boolean status, String admin_id) {
         this.customer_id = customer_id;
         this.user_Name = user_Name;
         this.full_Name = full_Name;
         this.password = password;
         this.phone = phone;
-        this.role_id = role_id;
         this.email = email;
         this.address = address;
         this.register_date = register_date;
         this.login_by = login_by;
+        this.status = status;
+        this.admin_id = admin_id;
     }
 
     public String getCustomer_id() {
@@ -78,14 +80,6 @@ public class CustomerDTO {
         this.phone = phone;
     }
 
-    public String getRole_id() {
-        return role_id;
-    }
-
-    public void setRole_id(String role_id) {
-        this.role_id = role_id;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -117,7 +111,23 @@ public class CustomerDTO {
     public void setLogin_by(String login_by) {
         this.login_by = login_by;
     }
-    
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    public String getAdmin_id() {
+        return admin_id;
+    }
+
+    public void setAdmin_id(String admin_id) {
+        this.admin_id = admin_id;
+    }
+
     
     
 }

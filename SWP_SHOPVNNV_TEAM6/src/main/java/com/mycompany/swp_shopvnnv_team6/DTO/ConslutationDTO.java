@@ -16,11 +16,12 @@ public class ConslutationDTO {
     private String room_design;
     private String description;
     private String customer_id;
-
+    private String admin_id;
+    
     public ConslutationDTO() {
     }
 
-    public ConslutationDTO(String conslutation_id, String phone, String user_name, String email, String room_design, String description, String customer_id) {
+    public ConslutationDTO(String conslutation_id, String phone, String user_name, String email, String room_design, String description, String customer_id, String admin_id) {
         this.conslutation_id = conslutation_id;
         this.phone = phone;
         this.user_name = user_name;
@@ -28,6 +29,7 @@ public class ConslutationDTO {
         this.room_design = room_design;
         this.description = description;
         this.customer_id = customer_id;
+        this.admin_id = admin_id;
     }
 
     public String getConslutation_id() {
@@ -84,6 +86,14 @@ public class ConslutationDTO {
 
     public void setCustomer_id(String customer_id) {
         this.customer_id = customer_id;
+    }
+
+    public String getAdmin_id() {
+        return admin_id;
+    }
+
+    public void setAdmin_id(String admin_id) {
+        this.admin_id = admin_id;
     }
 
     
