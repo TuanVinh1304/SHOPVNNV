@@ -165,13 +165,13 @@
           </div>
 
           <div class="row mb-3">
-            <!-- Total Revenue Card Example -->
+            <!-- Total Product Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total Revenue</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total Product</div>
                       <div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
                     </div>
                     <div class="col-auto">
@@ -197,13 +197,13 @@
                 </div>
               </div>
             </div>
-            <!-- Total User Card Example -->
+            <!-- Total User 's Report Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total Users</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total User's Report</div>
                       <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0</div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                       </div>
@@ -215,22 +215,7 @@
                 </div>
               </div>
             </div>
-            <!-- Total Like Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Likes</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-comments fa-2x text-warning"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
 
             <!-- Pie Chart -->
