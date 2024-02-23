@@ -11,7 +11,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="logo.png">
 
   <meta name="description" content="" />
   <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -41,7 +41,20 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="shop.html">Shop</a>
+                                                <ul class="dropdown">
+                                                        <li><a href="#">Menu One</a></li>
+                                                        <li><a href="#">Menu Two</a></li>
+                                                        <li><a href="#">Menu Three</a></li>
+                                                        <li class="nav-link">
+                                                            <a href="#">Sub Menu</a>
+                                                            <ul class="dropdown">
+                                                                <li><a href="#">Menu One</a></li>
+                                                                <li><a href="#">Menu Two</a></li>
+                                                                <li><a href="#">Menu Three</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul></li>
 						<li><a class="nav-link" href="about.html">About us</a></li>
 						<li><a class="nav-link" href="services.html">Services</a></li>
 						<li><a class="nav-link" href="blog.html">Blog</a></li>
