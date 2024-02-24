@@ -21,7 +21,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
                 <link href="furni-1.0.0/css/tiny-slider.css" rel="stylesheet">
                 <link href="furni-1.0.0/css/style.css" rel="stylesheet">
-		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+		<title> VNNV </title>
 	</head>
 
 	<body>
@@ -30,7 +30,7 @@
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
 			<div class="container">
-				<a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+				<a class="navbar-brand" href="index.html">Shop VNNV<span>.</span></a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -39,31 +39,19 @@
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home</a>
+							<a class="nav-link" href="home.jsp">Home</a>
 						</li>
-						<li><a class="nav-link" href="shop.html">Shop</a>
-                                                <ul class="dropdown">
-                                                        <li><a href="#">Menu One</a></li>
-                                                        <li><a href="#">Menu Two</a></li>
-                                                        <li><a href="#">Menu Three</a></li>
-                                                        <li class="nav-link">
-                                                            <a href="#">Sub Menu</a>
-                                                            <ul class="dropdown">
-                                                                <li><a href="#">Menu One</a></li>
-                                                                <li><a href="#">Menu Two</a></li>
-                                                                <li><a href="#">Menu Three</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul></li>
-						<li><a class="nav-link" href="about.html">About us</a></li>
-						<li><a class="nav-link" href="services.html">Services</a></li>
-						<li><a class="nav-link" href="blog.html">Blog</a></li>
-						<li><a class="nav-link" href="contact.html">Conlution</a></li>
+						<li><a class="nav-link" href="shop.jsp">Shop</a>
+                                                </li>
+						<li><a class="nav-link" href="about.jsp">About us</a></li>
+						<li><a class="nav-link" href="services.jsp">Services</a></li>
+						<li><a class="nav-link" href="blog.jsp">Blog</a></li>
+						<li><a class="nav-link" href="contact.jsp">Conlution</a></li>
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                                            <li><a class="nav-link" href="signInSignUp.html"><img src="furni-1.0.0/images/user.svg"></a></li>
-						<li><a class="nav-link" href="cart.html"><img src="furni-1.0.0/images/cart.svg"></a></li>
+                                            <li><a class="nav-link" href="signInSignUp.jsp"><img src="furni-1.0.0/images/user.svg"></a></li>
+						<li><a class="nav-link" href="cart.jsp"><img src="furni-1.0.0/images/cart.svg"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -101,13 +89,13 @@
 					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
 						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
 						<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
-						<p><a href="shop.html" class="btn">Explore</a></p>
+						<p><a href="shop.jsp" class="btn">Explore</a></p>
 					</div> 
 					<!-- End Column 1 -->
 
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="cart.jsp">
 							<img src="furni-1.0.0/images/product-1.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Nordic Chair</h3>
 							<strong class="product-price">$50.00</strong>
@@ -121,7 +109,7 @@
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="cart.jsp">
 							<img src="furni-1.0.0/images/product-2.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Kruzo Aero Chair</h3>
 							<strong class="product-price">$78.00</strong>
@@ -135,7 +123,7 @@
 
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="cart.jsp">
 							<img src="furni-1.0.0/images/product-3.png" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Ergonomic Chair</h3>
 							<strong class="product-price">$43.00</strong>
