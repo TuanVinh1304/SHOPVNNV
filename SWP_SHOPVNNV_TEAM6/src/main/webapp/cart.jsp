@@ -1,322 +1,444 @@
-<!-- /*
-* Bootstrap 5
-* Template Name: Furni
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="logo.png">
+  <title>aranaz</title>
+  <link rel="icon" href="img/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- owl carousel CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- nice select CSS -->
+  <link rel="stylesheet" href="css/nice-select.css">
+  <!-- font awesome CSS -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- flaticon CSS -->
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <!-- font awesome CSS -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- swiper CSS -->
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/price_rangs.css">
+  <!-- style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <meta name="description" content="" />
-  <meta name="keywords" content="bootstrap, bootstrap4" />
+<body>
+  <!--::header part start::-->
+  <header class="main_menu home_menu">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu_icon"><i class="fas fa-bars"></i></span>
+                    </button>
 
-		<!-- Bootstrap CSS -->
-                <link href="furni-1.0.0/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-                <link href="furni-1.0.0/css/tiny-slider.css" rel="stylesheet">
-                <link href="furni-1.0.0/css/style.css" rel="stylesheet">
-		<title>VNNV </title>
-	</head>
-
-	<body>
-
-		<!-- Start Header/Navigation -->
-		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
-
-			<div class="container">
-				<a class="navbar-brand" href="index.html">Shop VNNV<span>.</span></a>
-
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarsFurni">
-					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item ">
-							<a class="nav-link" href="home.jsp">Home</a>
-						</li>
-						<li><a class="nav-link" href="shop.jsp">Shop</a></li>
-						<li ><a class="nav-link" href="about.jsp">About us</a></li>
-						<li><a class="nav-link" href="services.jsp">Services</a></li>
-						<li><a class="nav-link" href="blog.jsp">Blog</a></li>
-						<li><a class="nav-link" href="contact.jsp">Contact us</a></li>
-					</ul>
-
-					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="signInSignUp.jsp"><img src="furni-1.0.0/images/user.svg"></a></li>
-						<li><a class="nav-link" href="cart.jsp"><img src="furni-1.0.0/images/cart.svg"></a></li>
-					</ul>
-				</div>
-			</div>
-				
-		</nav>
-		<!-- End Header/Navigation -->
-
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
-								<h1>Cart</h1>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		<!-- End Hero Section -->
-
-		
-
-		<div class="untree_co-section before-footer-section">
-            <div class="container">
-              <div class="row mb-5">
-                <form class="col-md-12" method="post">
-                  <div class="site-blocks-table">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th class="product-thumbnail">Image</th>
-                          <th class="product-name">Product</th>
-                          <th class="product-price">Price</th>
-                          <th class="product-quantity">Quantity</th>
-                          <th class="product-total">Total</th>
-                          <th class="product-remove">Remove</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="product-thumbnail">
-                            <img src="furni-1.0.0/images/product-1.png" alt="Image" class="img-fluid">
-                          </td>
-                          <td class="product-name">
-                            <h2 class="h5 text-black">Product 1</h2>
-                          </td>
-                          <td>$49.00</td>
-                          <td>
-                            <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
-                              <div class="input-group-prepend">
-                                <button class="btn btn-outline-black decrease" type="button">&minus;</button>
-                              </div>
-                              <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                              <div class="input-group-append">
-                                <button class="btn btn-outline-black increase" type="button">&plus;</button>
-                              </div>
-                            </div>
-        
-                          </td>
-                          <td>$49.00</td>
-                          <td><a href="#" class="btn btn-black btn-sm">X</a></td>
-                        </tr>
-        
-                        <tr>
-                          <td class="product-thumbnail">
-                            <img src="furni-1.0.0/images/product-2.png" alt="Image" class="img-fluid">
-                          </td>
-                          <td class="product-name">
-                            <h2 class="h5 text-black">Product 2</h2>
-                          </td>
-                          <td>$49.00</td>
-                          <td>
-                            <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
-                              <div class="input-group-prepend">
-                                <button class="btn btn-outline-black decrease" type="button">&minus;</button>
-                              </div>
-                              <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                              <div class="input-group-append">
-                                <button class="btn btn-outline-black increase" type="button">&plus;</button>
-                              </div>
-                            </div>
-        
-                          </td>
-                          <td>$49.00</td>
-                          <td><a href="#" class="btn btn-black btn-sm">X</a></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </form>
-              </div>
-        
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row mb-5">
-                    <div class="col-md-6 mb-3 mb-md-0">
-                      <button class="btn btn-black btn-sm btn-block">Update Cart</button>
+                    <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                    <a class="dropdown-item" href="category.html"> shop category</a>
+                                    <a class="dropdown-item" href="single-product.html">product details</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                    <a class="dropdown-item" href="login.html"> login</a>
+                                    <a class="dropdown-item" href="tracking.html">tracking</a>
+                                    <a class="dropdown-item" href="checkout.html">product checkout</a>
+                                    <a class="dropdown-item" href="cart.html">shopping cart</a>
+                                    <a class="dropdown-item" href="confirmation.html">confirmation</a>
+                                    <a class="dropdown-item" href="elements.html">elements</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                    <a class="dropdown-item" href="blog.html"> blog</a>
+                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                      <button class="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                    <div class="hearer_icon d-flex">
+                        <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
+                        <a href=""><i class="ti-heart"></i></a>
+                        <div class="dropdown cart">
+                            <a class="dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cart-plus"></i>
+                            </a>
+                            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="single_product">
+
+                                </div>
+                            </div> -->
+                            
+                        </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <label class="text-black h4" for="coupon">Coupon</label>
-                      <p>Enter your coupon code if you have one.</p>
-                    </div>
-                    <div class="col-md-8 mb-3 mb-md-0">
-                      <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
-                    </div>
-                    <div class="col-md-4">
-                      <button class="btn btn-black">Apply Coupon</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 pl-5">
-                  <div class="row justify-content-end">
-                    <div class="col-md-7">
-                      <div class="row">
-                        <div class="col-md-12 text-right border-bottom mb-5">
-                          <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <span class="text-black">Subtotal</span>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
-                        </div>
-                      </div>
-                      <div class="row mb-5">
-                        <div class="col-md-6">
-                          <span class="text-black">Total</span>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
-                        </div>
-                      </div>
-        
-                      <div class="row">
-                        <div class="col-md-12">
-                          <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="search_input" id="search_input_box">
+        <div class="container ">
+            <form class="d-flex justify-content-between search-inner">
+                <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                <button type="submit" class="btn"></button>
+                <span class="ti-close" id="close_search" title="Close Search"></span>
+            </form>
+        </div>
+    </div>
+</header>
+  <!-- Header part end-->
+
+
+  <!--================Home Banner Area =================-->
+  <!-- breadcrumb start-->
+  <section class="breadcrumb breadcrumb_bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="breadcrumb_iner">
+            <div class="breadcrumb_iner_item">
+              <h2>Cart Products</h2>
+              <p>Home <span>-</span>Cart Products</p>
             </div>
           </div>
-		
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- breadcrumb start-->
 
-		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
+  <!--================Cart Area =================-->
+  <section class="cart_area padding_top">
+    <div class="container">
+      <div class="cart_inner">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="d-flex">
+                      <img src="img/product/single-product/cart-1.jpg" alt="" />
+                    </div>
+                    <div class="media-body">
+                      <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>$360.00</h5>
+                </td>
+                <td>
+                  <div class="product_count">
+                    <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
+                    <input class="input-number" type="text" value="1" min="0" max="10">
+                    <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
+                  </div>
+                </td>
+                <td>
+                  <h5>$720.00</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="d-flex">
+                      <img src="img/product/single-product/cart-1.jpg" alt="" />
+                    </div>
+                    <div class="media-body">
+                      <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>$360.00</h5>
+                </td>
+                <td>
+                  <div class="product_count">
+                    <!-- <input type="text" value="1" min="0" max="10" title="Quantity:"
+                      class="input-text qty input-number" />
+                    <button
+                      class="increase input-number-increment items-count" type="button">
+                      <i class="ti-angle-up"></i>
+                    </button>
+                    <button
+                      class="reduced input-number-decrement items-count" type="button">
+                      <i class="ti-angle-down"></i>
+                    </button> -->
+                    <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
+                    <input class="input-number" type="text" value="1" min="0" max="10">
+                    <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
+                  </div>
+                </td>
+                <td>
+                  <h5>$720.00</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="media">
+                    <div class="d-flex">
+                      <img src="img/product/single-product/cart-1.jpg" alt="" />
+                    </div>
+                    <div class="media-body">
+                      <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h5>$360.00</h5>
+                </td>
+                <td>
+                  <div class="product_count">
+                    <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
+                    <input class="input-number" type="text" value="1" min="0" max="10">
+                    <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
+                  </div>
+                </td>
+                <td>
+                  <h5>$720.00</h5>
+                </td>
+              </tr>
+              <tr class="bottom_button">
+                <td>
+                  <a class="btn_1" href="#">Update Cart</a>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="cupon_text float-right">
+                    <a class="btn_1" href="#">Close Coupon</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <h5>Subtotal</h5>
+                </td>
+                <td>
+                  <h5>$2160.00</h5>
+                </td>
+              </tr>
+              <tr class="shipping_area">
+                <td></td>
+                <td></td>
+                <td>
+                  <h5>Shipping</h5>
+                </td>
+                <td>
+                  <div class="shipping_box">
+                    <ul class="list">
+                      <li>
+                        <a href="#">Flat Rate: $5.00</a>
+                      </li>
+                      <li>
+                        <a href="#">Free Shipping</a>
+                      </li>
+                      <li>
+                        <a href="#">Flat Rate: $10.00</a>
+                      </li>
+                      <li class="active">
+                        <a href="#">Local Delivery: $2.00</a>
+                      </li>
+                    </ul>
+                    <h6>
+                      Calculate Shipping
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </h6>
+                    <select class="shipping_select">
+                      <option value="1">Bangladesh</option>
+                      <option value="2">India</option>
+                      <option value="4">Pakistan</option>
+                    </select>
+                    <select class="shipping_select section_bg">
+                      <option value="1">Select a State</option>
+                      <option value="2">Select a State</option>
+                      <option value="4">Select a State</option>
+                    </select>
+                    <input type="text" placeholder="Postcode/Zipcode" />
+                    <a class="btn_1" href="#">Update Details</a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="checkout_btn_inner float-right">
+            <a class="btn_1" href="#">Continue Shopping</a>
+            <a class="btn_1 checkout_btn_1" href="#">Proceed to checkout</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--================End Cart Area =================-->
 
-				<div class="sofa-img">
-					<img src="furni-1.0.0/images/sofa.png" alt="Image" class="img-fluid">
-				</div>
-
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="furni-1.0.0/images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
-						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-8">
-						<div class="row links-wrap">
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Nordic Chair</a></li>
-									<li><a href="#">Kruzo Aero</a></li>
-									<li><a href="#">Ergonomic Chair</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  <!-- License information: https://untree.co/license/ -->
+  <!--::footer_part start::-->
+  <footer class="footer_part">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-sm-6 col-lg-2">
+          <div class="single_footer_part">
+            <h4>Top Products</h4>
+            <ul class="list-unstyled">
+              <li><a href="">Managed Website</a></li>
+              <li><a href="">Manage Reputation</a></li>
+              <li><a href="">Power Tools</a></li>
+              <li><a href="">Marketing Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <div class="single_footer_part">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Brand Assets</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <div class="single_footer_part">
+            <h4>Features</h4>
+            <ul class="list-unstyled">
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Brand Assets</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <div class="single_footer_part">
+            <h4>Resources</h4>
+            <ul class="list-unstyled">
+              <li><a href="">Guides</a></li>
+              <li><a href="">Research</a></li>
+              <li><a href="">Experts</a></li>
+              <li><a href="">Agencies</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="single_footer_part">
+            <h4>Newsletter</h4>
+            <p>Heaven fruitful doesn't over lesser in days. Appear creeping
             </p>
-						</div>
+            <div id="mc_embed_signup">
+              <form target="_blank"
+                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                method="get" class="subscribe_form relative mail_part">
+                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                  class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = ' Email Address '">
+                <button type="submit" name="submit" id="newsletter-submit"
+                  class="email_icon newsletter-submit button-contactForm">subscribe</button>
+                <div class="mt-10 info"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-						<div class="col-lg-6 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
+    </div>
+    <div class="copyright_part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="copyright_text">
+              <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer_icon social_icon">
+              <ul class="list-unstyled">
+                <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--::footer_part end::-->
 
-					</div>
-				</div>
-
-			</div>
-		</footer>
-		<!-- End Footer Section -->	
-
-
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/tiny-slider.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
+  <!-- jquery plugins here-->
+  <!-- jquery -->
+  <script src="js/jquery-1.12.1.min.js"></script>
+  <!-- popper js -->
+  <script src="js/popper.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- easing js -->
+  <script src="js/jquery.magnific-popup.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/masonry.pkgd.js"></script>
+  <!-- particles js -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <!-- slick js -->
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/price_rangs.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
 
 </html>
