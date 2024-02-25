@@ -4,12 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleSignInSignUp.css">
+    <link rel="stylesheet" href="css/signInUp.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
 </head>
 
 <body>
+    
+    <header class="main_menu home_menu">
+        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.jsp">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_1"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                        <a class="dropdown-item" href="category.jsp"> shop category</a>
+                                        <a class="dropdown-item" href="product-details.jsp">product details</a>
+
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_3"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="signInSignUp.jsp"> login</a>
+                                        <a class="dropdown-item" href="tracking.jsp">tracking</a>
+                                        <a class="dropdown-item" href="checkout.jsp">product checkout</a>
+                                        <a class="dropdown-item" href="cart.jsp">shopping cart</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_2"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="blog.jsp"> blog</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+    </header>
+    
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">

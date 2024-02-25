@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>aranoz</title>
+  <title>Product Details</title>
   <link rel="icon" href="img/favicon.png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -32,7 +32,7 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"> <img src="img/logo/logo.png" alt="logo"> <b>Shop VNNV</b></a>
+                    <a class="navbar-brand" href="index.html"> <img src="img/1.jpg" alt="logo"> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -42,46 +42,43 @@
                     <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="index.jsp">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_1"
                                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                    <a class="dropdown-item" href="category.html"> shop category</a>
-                                    <a class="dropdown-item" href="single-product.html">product details</a>
+                                    <a class="dropdown-item" href="category.jsp"> shop category</a>
+                                    <a class="dropdown-item" href="product-details.jsp">product details</a>
                                     
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_3"
                                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     pages
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                    <a class="dropdown-item" href="login.html"> login</a>
-                                    <a class="dropdown-item" href="tracking.html">tracking</a>
-                                    <a class="dropdown-item" href="checkout.html">product checkout</a>
-                                    <a class="dropdown-item" href="cart.html">shopping cart</a>
-                                    <a class="dropdown-item" href="confirmation.html">confirmation</a>
-                                    <a class="dropdown-item" href="elements.html">elements</a>
+                                    <a class="dropdown-item" href="signInSignUp.jsp"> login</a>
+                                    <a class="dropdown-item" href="tracking.jsp">tracking</a>
+                                    <a class="dropdown-item" href="checkout.jsp">product checkout</a>
+                                    <a class="dropdown-item" href="cart.jsp">shopping cart</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
+                                <a class="nav-link dropdown-toggle" href="blog.jsp" id="navbarDropdown_2"
                                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     blog
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                    <a class="dropdown-item" href="blog.html"> blog</a>
-                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                    <a class="dropdown-item" href="blog.jsp"> blog</a>
                                 </div>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.jsp">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -215,8 +212,8 @@
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
           <p>
-            Beryl Cook is one of Britain’s most talented and amusing artists
-            .Beryl’s pictures feature women of all shapes and sizes enjoying
+            Beryl Cook is one of Britain?s most talented and amusing artists
+            .Beryl?s pictures feature women of all shapes and sizes enjoying
             themselves .Born between the two world wars, Beryl Cook eventually
             left Kendrick School in Reading at the age of 15, where she went
             to secretarial school and then into an insurance office. After
@@ -226,11 +223,11 @@
             for a year before John took a job in Southern Rhodesia with a
             motor company. Beryl bought their young son a box of watercolours,
             and when showing him how to use it, she decided that she herself
-            quite enjoyed painting. John subsequently bought her a child’s
+            quite enjoyed painting. John subsequently bought her a child?s
             painting set for her birthday and it was with this that she
             produced her first significant work, a half-length portrait of a
             dark-skinned lady with a vacant expression and large drooping
-            breasts. It was aptly named ‘Hangover’ by Beryl’s husband and
+            breasts. It was aptly named ?Hangover? by Beryl?s husband and
           </p>
           <p>
             It is often frustrating to attempt to plan meals that are designed
