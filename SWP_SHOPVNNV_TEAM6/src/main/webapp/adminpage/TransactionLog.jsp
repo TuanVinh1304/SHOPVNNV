@@ -56,9 +56,9 @@ DOCTYPE html>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Voucher.jsp">
+                  <a class="nav-link" href="Promotion.jsp">
                     <i class="fas fa-fw fa-palette"></i>
-                    <span>Voucher</span>
+                    <span>Promotion</span>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -186,11 +186,11 @@ DOCTYPE html>
                                   <th>Transaction Log ID</th>
                                   <th>Date time</th>
                                   <th>Type</th>
-                                  <th>Customer</th>
-                                  <th>Product Information</th>
+                                  <th>Customer Name</th>
+                                  <th>Product Name</th>
                                   <th>Total amount</th>
                                   <th>Status</th>
-                                  <th>Payment method(may be use credit card, bank transfer or e-wallet)</th>
+                                  <th>Payment method</th>
                                   <th>Note</th>
                                 </tr>
                               </thead>

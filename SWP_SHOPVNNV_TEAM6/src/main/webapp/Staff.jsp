@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -7,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="img/logo/logo.png" rel="icon">
-        <title>VNNVAdmin - Order</title>
+        <title>VNNVStaff - Dashboard</title>
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -20,7 +19,7 @@
             <div id="wrapper">
               <!-- Sidebar -->
               <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Admin.html">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Staff.jsp">
                   <div class="sidebar-brand-icon">
                     <img src="img/logo/logo.png">
                   </div>
@@ -28,7 +27,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="Admin.jsp">
+                  <a class="nav-link" href="Staff.jsp">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
                 </li>
@@ -37,43 +36,25 @@
                   Features
                 </div>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Order.jsp" >
+                  <a class="nav-link collapsed" href="Order1.jsp" >
                     <i class="far fa-fw fa-window-maximize"></i>
                     <span>Order</span>
                   </a>
           
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Account.jsp">
+                  <a class="nav-link collapsed" href="Inventory.jsp">
                     <i class="fab fa-fw fa-wpforms"></i>
-                    <span>Account </span>
+                    <span>Inventory </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link collapsed" href="Product.jsp">
+                  <a class="nav-link collapsed" href="Report.jsp">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Product</span>
+                    <span>User's Report</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Promotion.jsp">
-                    <i class="fas fa-fw fa-palette"></i>
-                    <span>Promotion</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="TransactionLog.jsp">
-                    <i class="fas fa-fw fa-columns"></i>
-                    <span>Transaction Logs</span>
-                  </a>
-                  
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Revenue.jsp">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Revenue</span>
-                  </a>
-                </li>
+              
                 <div class="version" id="version-ruangadmin"></div>
             </ul>
              <!-- Sidebar -->
@@ -105,7 +86,7 @@
                   </form>
                 </div>
               </li>
-             <li class="nav-item dropdown no-arrow mx-1">
+              <li class="nav-item dropdown no-arrow mx-1">
                 <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   <i class="fas fa-bell fa-fw"></i>
@@ -141,7 +122,7 @@
                   </a>
                  
                 </div>
-              </li>                 
+              </li>            
               <div class="topbar-divider d-none d-sm-block"></div>
               <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
@@ -172,15 +153,151 @@
             </ul>
           </nav>
           <!-- Topbar -->
-                      <!-- Invoice Example -->
-                      <div class="col-xl-8 col-lg-7 mb-4">
-                        <div class="card">
-                          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
-                          </div>
-                          <div class="table-responsive">
-                            <table class="table align-items-center table-flush">
-                              <thead class="thead-light">
+
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            </ol>
+          </div>
+
+          <div class="row mb-3">
+            <!-- Total Product Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total Product</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x text-primary"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Total Order Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total Orders</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-shopping-cart fa-2x text-success"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Total User 's Report Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total User's Report</div>
+                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0</div>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-users fa-2x text-info"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
+              <div class="card mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Products Sold</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle btn btn-primary btn-sm" href="#" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Month <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                      aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Select Periode</div>
+                      <a class="dropdown-item" href="#">Today</a>
+                      <a class="dropdown-item" href="#">Week</a>
+                      <a class="dropdown-item active" href="#">Month</a>
+                      <a class="dropdown-item" href="#">This Year</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Sofa
+                      <div class="small float-right"><b>0 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Table 
+                      <div class="small float-right"><b>0 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Display cabinets
+                      <div class="small float-right"><b>0 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="55"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Lamp
+                      <div class="small float-right"><b>0 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="small text-gray-500">Carpet
+                      <div class="small float-right"><b>0 of 800 Items</b></div>
+                    </div>
+                    <div class="progress" style="height: 12px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="30"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Invoice Example -->
+            <div class="col-xl-8 col-lg-7 mb-4">
+              <div class="card">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
+                  <a class="m-0 float-right btn btn-danger btn-sm" href="Order.jsp">View More <i
+                      class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="table-responsive">
+                  <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
                                 <tr>
                                   <th>Order ID</th>
                                   <th>Quantity</th>
@@ -194,14 +311,33 @@
                                   <th>Payment Type</th>
                                   <th>Cancel Reason</th>
                                 </tr>
-                              </thead>
-                              
-                            </table>
-                          </div>
-                          <div class="card-footer"></div>
-                        </div>
-                      </div>
-                <!--Row-->
+                    </thead>
+                    
+                  </table>
+                </div>
+                <div class="card-footer"></div>
+              </div>
+            </div>
+                       <!-- Message From Customer-->
+            <div class="col-xl-4 col-lg-5 ">
+              <div class="card">
+                <div class="card-header py-4 bg-primary d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-light">Message From Customer</h6>
+                </div>
+                <div>
+
+                  <div class="customer-message align-items-center">
+                    <a class="font-weight-bold" href="#">
+                   
+                      
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Row-->
 
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -235,7 +371,7 @@
         </div>
         <!---Container Fluid-->
       </div>
-
+      
     </div>
   </div>
 

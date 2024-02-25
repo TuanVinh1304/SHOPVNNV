@@ -20,11 +20,14 @@ public class ProductDTO {
     private String customer_id;
     private String image;
     private String category_id;
+    private String admin_id;
+    private int quantity;
+    private boolean status;
 
     public ProductDTO() {
     }
 
-    public ProductDTO(String product_id, String product_name, String color, String description, Float unitPrice, Timestamp create_date, String customer_id, String image, String category_id) {
+    public ProductDTO(String product_id, String product_name, String color, String description, Float unitPrice, Timestamp create_date, String customer_id, String image, String category_id, String admin_id, int quantity, boolean status) {
         this.product_id = product_id;
         this.product_name = product_name;
         this.color = color;
@@ -34,6 +37,9 @@ public class ProductDTO {
         this.customer_id = customer_id;
         this.image = image;
         this.category_id = category_id;
+        this.admin_id = admin_id;
+        this.quantity = quantity;
+        this.status = status;
     }
 
     public String getProduct_id() {
@@ -108,7 +114,30 @@ public class ProductDTO {
         this.category_id = category_id;
     }
 
-    
+    public String getAdmin_id() {
+        return admin_id;
+    }
 
+    public void setAdmin_id(String admin_id) {
+        this.admin_id = admin_id;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    
     
 }

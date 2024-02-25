@@ -22,11 +22,13 @@ public class PromotionDTO {
     private String category_id;
     private String product_id;
     private String order_id;
+    private String admin_id;
+    private boolean status;
 
     public PromotionDTO() {
     }
 
-    public PromotionDTO(String promotion_id, String promotion_name, Timestamp created_date, Timestamp start_date, Timestamp end_date, String code, String description, String image_url, String category_id, String product_id, String order_id) {
+    public PromotionDTO(String promotion_id, String promotion_name, Timestamp created_date, Timestamp start_date, Timestamp end_date, String code, String description, String image_url, String category_id, String product_id, String order_id, String admin_id, boolean status) {
         this.promotion_id = promotion_id;
         this.promotion_name = promotion_name;
         this.created_date = created_date;
@@ -38,6 +40,8 @@ public class PromotionDTO {
         this.category_id = category_id;
         this.product_id = product_id;
         this.order_id = order_id;
+        this.admin_id = admin_id;
+        this.status = status;
     }
 
     public String getPromotion_id() {
@@ -127,7 +131,23 @@ public class PromotionDTO {
     public void setOrder_id(String order_id) {
         this.order_id = order_id;
     }
-    
+
+    public String getAdmin_id() {
+        return admin_id;
+    }
+
+    public void setAdmin_id(String admin_id) {
+        this.admin_id = admin_id;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
     
     
 }

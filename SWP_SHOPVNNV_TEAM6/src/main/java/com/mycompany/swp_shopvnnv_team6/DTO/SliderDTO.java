@@ -15,17 +15,19 @@ public class SliderDTO {
     private Timestamp created_date;
     private String slider_imageur;
     private String slider_name;
-    private String product_id;
+    private String category_id;
+    private boolean status;
 
     public SliderDTO() {
     }
 
-    public SliderDTO(String slider_id, Timestamp created_date, String slider_imageur, String slider_name, String product_id) {
+    public SliderDTO(String slider_id, Timestamp created_date, String slider_imageur, String slider_name, String category_id, boolean status) {
         this.slider_id = slider_id;
         this.created_date = created_date;
         this.slider_imageur = slider_imageur;
         this.slider_name = slider_name;
-        this.product_id = product_id;
+        this.category_id = category_id;
+        this.status = status;
     }
 
     public String getSlider_id() {
@@ -60,13 +62,22 @@ public class SliderDTO {
         this.slider_name = slider_name;
     }
 
-    public String getProduct_id() {
-        return product_id;
+    public String getCategory_id() {
+        return category_id;
     }
 
-    public void setProduct_id(String product_id) {
-        this.product_id = product_id;
+    public void setCategory_id(String category_id) {
+        this.category_id = category_id;
     }
 
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    
     
 }

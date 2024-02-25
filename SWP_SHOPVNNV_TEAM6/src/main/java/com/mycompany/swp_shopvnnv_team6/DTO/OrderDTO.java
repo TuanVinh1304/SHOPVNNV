@@ -22,11 +22,12 @@ public class OrderDTO {
     private String payment_status;
     private String payment_type;
     private String cancel_reason;
+    private boolean status;
 
     public OrderDTO() {
     }
 
-    public OrderDTO(String order_id, int quantity, Float total_price, Timestamp created_date, String phone, String address, String customer_id, String order_status, String payment_status, String payment_type, String cancel_reason) {
+    public OrderDTO(String order_id, int quantity, Float total_price, Timestamp created_date, String phone, String address, String customer_id, String order_status, String payment_status, String payment_type, String cancel_reason, boolean status) {
         this.order_id = order_id;
         this.quantity = quantity;
         this.total_price = total_price;
@@ -38,6 +39,7 @@ public class OrderDTO {
         this.payment_status = payment_status;
         this.payment_type = payment_type;
         this.cancel_reason = cancel_reason;
+        this.status = status;
     }
 
     public String getOrder_id() {
@@ -128,4 +130,13 @@ public class OrderDTO {
         this.cancel_reason = cancel_reason;
     }
 
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+   
 }
