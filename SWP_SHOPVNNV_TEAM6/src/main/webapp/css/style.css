@@ -2538,6 +2538,10 @@ ul {
   top: 30%;
 }
 
+.custom-img{
+    width: 50% !important
+}
+
 /* line 72, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
 .banner_part .owl-nav {
   position: absolute;

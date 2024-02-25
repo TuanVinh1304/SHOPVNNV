@@ -144,8 +144,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="banner_img d-none d-lg-block">
-                                    <img src="img/banner_img.png" alt="">
+                                <div style="width: 60%" class="banner_img d-none d-block">
+                                    <img style="width: 100%" src="img/1.jpg" alt="">
                                 </div>
                             </div>
                         </div><div class="single_banner_slider">
@@ -161,8 +161,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="banner_img d-none d-lg-block">
-                                    <img src="img/banner_img.png" alt="">
+                                <div style=" width: 60%" class="banner_img d-none d-lg-block">
+                                    <img style="width: 100%" src="img/2.jpg" alt="">
                                 </div>
                             </div>
                         </div><div class="single_banner_slider">
@@ -250,7 +250,7 @@
                         <p>Premium Quality</p>
                         <h3>Latest foam Sofa</h3>
                         <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
-                        <img src="img/feature/feature_4.png" alt="">
+                        <img style="width: 50%" src="img/test.png" alt="">
                     </div>
                 </div>
             </div>
